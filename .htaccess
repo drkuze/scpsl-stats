@@ -1,0 +1,7 @@
+RewriteRule ^$ app/index.php [L]
+
+
+# Error
+ErrorDocument 403 https://nodelex.xyz/error/403
+ErrorDocument 404 https://nodelex.xyz/error/404
+ErrorDocument 500 https://nodelex.xyz/error/500
